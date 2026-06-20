@@ -1,4 +1,4 @@
-import Header from "./components/Header";
+import Header from "./components/Hero";
 import Reveal from "./components/Reveal";
 
 function App() {

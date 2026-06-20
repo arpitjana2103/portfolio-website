@@ -20,13 +20,13 @@
         @apply border-border outline-ring/50;
     }
     body {
-        @apply bg-background/80 text-foreground/80 text-[1rem];
+        @apply bg-background text-foreground/80 text-[1rem];
     }
     html {
         @apply text-[16px]  font-sans;
     }
     p {
-        @apply leading-5;
+        @apply leading-6.5;
     }
 }
 
@@ -34,7 +34,6 @@
     opacity: 0;
     transform: translateY(20px);
     filter: blur(8px);
-
     transition: all 0.8s ease;
 }
 
