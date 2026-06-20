@@ -1,9 +1,12 @@
-import { Button } from "./components/ui/button";
+import Header from "./components/Header";
+import Reveal from "./components/Reveal";
 
 function App() {
     return (
         <>
-            <Button>Hello Shadcn</Button>
+            <Reveal>
+                <Header />
+            </Reveal>
         </>
     );
 }
