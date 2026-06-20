@@ -5,6 +5,58 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
+
+    <style>
+        :root {
+            --amber1000: #150800;
+            --amber950: oklch(0.279 0.077 45.635);
+            --amber600: oklch(0.666 0.179 58.318);
+            --amber500: oklch(0.769 0.188 70.08);
+            --amber400: oklch(0.828 0.189 84.429);
+            --amber300: oklch(0.879 0.169 91.605);
+            --amber200: oklch(0.924 0.12 95.746);
+            --amber100: oklch(0.962 0.059 95.617);
+            --amber50: oklch(0.987 0.022 95.277);
+
+            --background: var(--amber50);
+            --foreground: var(--amber950);
+            --border: var(--amber400);
+        }
+
+        .dark {
+            --background: var(--amber1000);
+            --foreground: var(--amber50);
+            --border: var(--amber500);
+        }
+
+        html {
+            background: var(--background);
+            color: var(--foreground);
+        }
+
+        html.no-transition * {
+            transition: none !important;
+        }
+    </style>
+
+    <!-- Theme init: runs synchronously before first paint to prevent flash -->
+    <script>
+        (function () {
+            var root = document.documentElement;
+            var stored = localStorage.getItem("theme");
+            var isDark =
+                stored === "dark" ||
+                (!stored && window.matchMedia("(prefers-color-scheme: dark)").matches);
+            if (isDark) root.classList.add("dark");
+            root.classList.add("no-transition");
+            window.addEventListener("load", function () {
+                setTimeout(function () {
+                    root.classList.remove("no-transition");
+                }, 0);
+            });
+        })();
+    </script>
+
   </head>
   <body>
     <div id="root"></div>
