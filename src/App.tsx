@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import GithubContributions from "./components/GithubContributions";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
@@ -7,21 +8,24 @@ import WorkExperience from "./components/WorkExperience";
 
 function App() {
     return (
-        <main>
-            <Reveal>
-                <Hero />
-            </Reveal>
-            <Reveal>
-                <TechStack />
-            </Reveal>
+        <main className="relative h-dvh">
+            <div className="lgxl:block absolute bottom-0 z-1000 h-10 w-dvw bg-[linear-gradient(180deg,transparent_1%,var(--background)_100%)]"></div>
+            <div className="h-full overflow-y-auto">
+                <Reveal>
+                    <Hero />
+                </Reveal>
+                <Reveal>
+                    <TechStack />
+                </Reveal>
 
-            <Projects />
+                <Projects />
 
-            <WorkExperience />
+                <WorkExperience />
 
-            <GithubContributions />
+                <GithubContributions />
 
-            <div className="h-20 w-full"></div>
+                <Footer />
+            </div>
         </main>
     );
 }

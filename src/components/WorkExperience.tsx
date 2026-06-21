@@ -27,7 +27,7 @@ export default function WorkExperience() {
 
 function WorkCard1() {
     return (
-        <div className="flex items-start gap-3 border-l-2 border-foreground/50 pl-2.5">
+        <div className="flex flex-col items-start gap-3 border-l-2 border-foreground/50 pl-2.5 sm:flex-row">
             <div className="h-8 w-8 shrink-0 rounded-full border-2 border-foreground/50">
                 <img className="rounded-full" src={ddugkyLogo} alt="" />
             </div>
@@ -49,14 +49,14 @@ function WorkCard1() {
                     <span>Bhopal • India • On-Site</span>
                 </div>
                 <div className="mt-2">
-                    <p className="text-foreground/60">
+                    <p className="hidden text-foreground/60 sm:block">
                         Delivered structured full-stack web development training as a Lead Web Dev
                         Instructor, mentoring 200+ students across BIA-05, BIA-06, BIA-07, BIA-08,
                         and BIA-09 batches. Conducted ~1750+ total training hours, covering modern
                         web technologies and industry practices.
                     </p>
 
-                    <ul className="mt-2 text-foreground/60">
+                    <ul className="mt-2 hidden text-foreground/60 sm:block">
                         <li>
                             • Conducted live coding sessions, assessments, and doubt-clearing
                             sessions
@@ -91,7 +91,7 @@ function WorkCard1() {
 
 function WorkCard2() {
     return (
-        <div className="flex items-start gap-3 border-l-2 border-foreground/50 pl-2.5">
+        <div className="flex flex-col items-start gap-3 border-l-2 border-foreground/50 pl-2.5 sm:flex-row">
             <div className="h-8 w-8 shrink-0 rounded-full border-2 border-foreground/50">
                 <img className="rounded-full" src={trackxLogo} alt="" />
             </div>
@@ -108,7 +108,7 @@ function WorkCard2() {
                     <span>Bengaluru • India • On-Site</span>
                 </div>
                 <div className="mt-2">
-                    <ul className="text-foreground/60">
+                    <ul className="hidden text-foreground/60 sm:block">
                         <li>
                             • Built and maintained reusable React components, improving UI
                             consistency

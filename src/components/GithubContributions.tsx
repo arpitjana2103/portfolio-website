@@ -97,7 +97,7 @@ export default function GithubContributions() {
                                     {[0, 1, 2, 3, 4].map((level) => (
                                         <span
                                             key={level}
-                                            className="inline-block h-3 w-3 rounded-sm"
+                                            className="inline-block h-3 w-3 rounded-full"
                                             style={{
                                                 backgroundColor: isDark
                                                     ? DARK_COLORS[level as keyof typeof DARK_COLORS]
