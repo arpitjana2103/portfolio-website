@@ -5,7 +5,7 @@ export default function TechStack() {
     return (
         <section className="mt-12">
             <Container>
-                <h1 className="font-sans font-semibold text-foreground/50">TECH STACK</h1>
+                <h1 className="text-foreground/50">TECH STACK</h1>
                 <div className="mt-4">
                     {/*<p className="font-mono text-foreground/50">Tech Stack I mosty use - </p>*/}
                     <div className="mt-2 flex flex-wrap items-center gap-3 text-foreground/70">

@@ -77,19 +77,25 @@ export default function Hero() {
                 </div>
                 <Container>
                     <div className="pointer-events-none">
-                        <h1 className="mt-8 font-sans text-2xl font-semibold tracking-wide text-foreground/80">
+                        <h1 className="mt-8 text-3xl tracking-wide text-foreground/80">
                             Hi <span className="font-emoji">👋</span> , I am Arpit !
                         </h1>
                     </div>
                 </Container>
                 <Container>
-                    <div className="mt-4 font-mono text-foreground/70">
+                    <div className="mt-4 text-foreground/70">
                         <p>
                             A frontend developer based in Kolkata, <span>🇮🇳</span> India. Love to
                             build polished web applications with{" "}
-                            <Badge name="React" className="translate-y-0.5 bg-cyan-500/15 py-0" />{" "}
+                            <Badge
+                                name="React"
+                                className="translate-y-0.5 bg-cyan-500/15 px-1.5 py-0"
+                            />{" "}
                             and{" "}
-                            <Badge name="NextJS" className="translate-y-0.5 bg-stone-500/15 py-0" />{" "}
+                            <Badge
+                                name="NextJS"
+                                className="translate-y-0.5 bg-stone-500/15 px-1.5 py-0"
+                            />{" "}
                             ecosystem, with 2+ years of industry experience and 1 year of experience
                             teaching web development.
                         </p>

@@ -86,7 +86,7 @@ export default function Badge({ name, className }: Props) {
             <span className="flex items-center gap-1.5">
                 <span className="">
                     <img
-                        className="z-10 aspect-square h-4 rounded-lg"
+                        className="z-10 aspect-square h-4 rounded-sm"
                         src={Icons[name]}
                         alt={name}
                     />

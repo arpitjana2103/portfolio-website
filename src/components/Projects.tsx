@@ -10,7 +10,7 @@ export default function Projects() {
         <section className="mt-12">
             <Container>
                 <Reveal>
-                    <h1 className="font-sans font-semibold text-foreground/50">PROJECT</h1>
+                    <h1 className="font-sans text-foreground/50">PROJECT</h1>
                 </Reveal>
                 <Reveal>
                     <div className="mt-4">
@@ -23,7 +23,7 @@ export default function Projects() {
                                         alt="mistCast"
                                     />
                                 </span>
-                                <span className="font-mono font-semibold">MistCast</span>
+                                <span className="font-semibold">MistCast</span>
                                 <span className="ml-auto flex items-center gap-3">
                                     <a
                                         href="https://github.com/arpitjana2103/grow-14-mistcast-weatherdashboard"
@@ -40,7 +40,7 @@ export default function Projects() {
                                 </span>
                             </div>
                             <div className="mt-3">
-                                <p className="font-mono leading-[1.3rem] text-foreground/70">
+                                <p className="text-foreground/70">
                                     Modern, responsive weather dashboard built with React, Leaflet,
                                     OpenWeatherMap API & Geocoding API.
                                 </p>

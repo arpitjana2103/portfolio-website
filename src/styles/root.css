@@ -1,24 +1,23 @@
 :root {
     /*--font-sans: "Pliant", sans-serif;*/
-    --font-sans: "Fira Sans", sans-serif;
-    --font-mono: "Fira Code", monospace;
+    --font-sans: "Google Sans", sans-serif;
     --font-emoji: "Noto Color Emoji", sans-serif;
 
-    --amber1000: #150800;
-    --amber950: oklch(0.279 0.077 45.635);
-    --amber600: oklch(0.666 0.179 58.318);
-    --amber500: oklch(0.769 0.188 70.08);
-    --amber400: oklch(0.828 0.189 84.429);
-    --amber300: oklch(0.879 0.169 91.605);
-    --amber200: oklch(0.924 0.12 95.746);
-    --amber100: oklch(0.962 0.059 95.617);
-    --amber50: oklch(0.987 0.022 95.277);
+    --amber1000: 15.15% 0.034 65.12;
+    --amber950: 0.279 0.077 45.635;
+    --amber600: 0.666 0.179 58.318;
+    --amber500: 0.769 0.188 70.08;
+    --amber400: 0.828 0.189 84.429;
+    --amber300: 0.879 0.169 91.605;
+    --amber200: 0.924 0.12 95.746;
+    --amber100: 0.962 0.059 95.617;
+    --amber50: 0.987 0.022 95.277;
 
     /*--------------------------------------*/
-    --background: var(--amber50);
-    --foreground: var(--amber950);
-    --border: var(--amber400);
-    --card: var(--amber100);
+    --background: oklch(var(--amber50));
+    --foreground: oklch(var(--amber950));
+    --border: oklch(var(--amber400));
+    --card: oklch(var(--amber100));
 
     /*--------------------------------------*/
     --card-foreground: oklch(0.145 0 0);

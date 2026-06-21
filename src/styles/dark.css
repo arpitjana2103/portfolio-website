@@ -1,8 +1,8 @@
 .dark {
-    --background: var(--amber1000);
-    --foreground: var(--amber100);
-    --border: var(--amber400);
-    --card: var(--amber950);
+    --background: oklch(var(--amber1000));
+    --foreground: oklch(var(--amber100));
+    --border: oklch(var(--amber400));
+    --card: oklch(var(--amber950));
 
     /*-----------------------------------*/
     --card-foreground: oklch(0.985 0 0);
