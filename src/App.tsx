@@ -24,7 +24,9 @@ function App() {
 
                 <GithubContributions />
 
-                <Footer />
+                <Reveal>
+                    <Footer />
+                </Reveal>
             </div>
         </main>
     );

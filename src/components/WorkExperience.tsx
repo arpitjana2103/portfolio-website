@@ -6,13 +6,13 @@ import Reveal from "./Reveal";
 
 export default function WorkExperience() {
     return (
-        <section className="mt-12">
+        <section className="mt-22">
             <Container>
                 <Reveal>
                     <h1 className="font-sans text-foreground/50">WORK EXPERIENCE</h1>
                 </Reveal>
 
-                <div className="mt-4 flex flex-col gap-6">
+                <div className="mt-4 flex flex-col gap-10">
                     <Reveal>
                         <WorkCard1 />
                     </Reveal>
@@ -48,7 +48,7 @@ function WorkCard1() {
                 <div className="text-sm text-foreground/50">
                     <span>Bhopal • India • On-Site</span>
                 </div>
-                <div className="mt-2">
+                <div className="mt-6">
                     <p className="hidden text-foreground/60 sm:block">
                         Delivered structured full-stack web development training as a Lead Web Dev
                         Instructor, mentoring 200+ students across BIA-05, BIA-06, BIA-07, BIA-08,
@@ -56,7 +56,7 @@ function WorkCard1() {
                         web technologies and industry practices.
                     </p>
 
-                    <ul className="mt-2 hidden text-foreground/60 sm:block">
+                    <ul className="mt-4 hidden text-foreground/60 sm:block">
                         <li>
                             • Conducted live coding sessions, assessments, and doubt-clearing
                             sessions
@@ -67,7 +67,7 @@ function WorkCard1() {
                         <li>• Provided career guidance and placement support to students</li>
                     </ul>
 
-                    <div className="mt-3 flex flex-wrap items-center gap-2 text-foreground/60">
+                    <div className="mt-6 flex flex-wrap items-center gap-2 text-foreground/60">
                         <Badge
                             name="JavaScript"
                             className="bg-yellow-400/10 px-1.5 py-0.5 text-sm"
@@ -107,7 +107,7 @@ function WorkCard2() {
                 <div className="text-sm text-foreground/50">
                     <span>Bengaluru • India • On-Site</span>
                 </div>
-                <div className="mt-2">
+                <div className="mt-6">
                     <ul className="hidden text-foreground/60 sm:block">
                         <li>
                             • Built and maintained reusable React components, improving UI
@@ -131,7 +131,7 @@ function WorkCard2() {
                         </li>
                     </ul>
 
-                    <div className="mt-3 flex flex-wrap items-center gap-2 text-foreground/60">
+                    <div className="mt-6 flex flex-wrap items-center gap-2 text-foreground/60">
                         <Badge name="TypeScript" className="bg-blue-500/10 px-1.5 py-0.5 text-sm" />
                         <Badge name="React" className="bg-sky-500/10 px-1.5 py-0.5 text-sm" />
                         <Badge

@@ -63,7 +63,7 @@ export default function GithubContributions() {
     }, []);
 
     return (
-        <section className="mt-12">
+        <section className="mt-22">
             <Container>
                 <Reveal>
                     <h1 className="font-sans text-foreground/50">GITHUB CONTRIBUTIONS</h1>

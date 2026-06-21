@@ -7,7 +7,7 @@ import Reveal from "./Reveal";
 
 export default function Projects() {
     return (
-        <section className="mt-12">
+        <section className="mt-18">
             <Container>
                 <Reveal>
                     <h1 className="font-sans text-foreground/50">PROJECT</h1>
