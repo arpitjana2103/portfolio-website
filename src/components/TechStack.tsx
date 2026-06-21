@@ -5,11 +5,9 @@ export default function TechStack() {
     return (
         <section className="mt-10">
             <Container>
-                <h1 className="text-foreground/40">TECH STACK</h1>
+                <h1 className="font-sans font-semibold text-foreground/50">TECH STACK</h1>
                 <div className="mt-4">
-                    <p className="font-mono text-sm text-foreground/50">
-                        Tech Stack I mosty use -{" "}
-                    </p>
+                    {/*<p className="font-mono text-foreground/50">Tech Stack I mosty use - </p>*/}
                     <div className="mt-2 flex flex-wrap items-center gap-3 text-foreground/70">
                         <Badge name="JavaScript" className="bg-yellow-400/10" />
                         <Badge name="TypeScript" className="bg-blue-500/10" />
@@ -28,8 +26,8 @@ export default function TechStack() {
                         {/*<Badge name="GitHubActions" className="bg-cyan-500/10" />*/}
                     </div>
 
-                    <p className="pt-4 font-mono text-sm text-foreground/50">Tools I mosty use -</p>
-                    <div className="mt-2 flex flex-wrap items-center gap-3 text-foreground/70">
+                    {/*<p className="pt-4 font-mono text-foreground/50">Tools I mosty use -</p>*/}
+                    <div className="mt-6 flex flex-wrap items-center gap-3 text-foreground/70">
                         <Badge name="Git" className="bg-orange-500/10" />
                         <Badge name="GitHub" className="bg-stone-500/10" />
                         <Badge name="ChatGPT" className="bg-teal-500/10" />
