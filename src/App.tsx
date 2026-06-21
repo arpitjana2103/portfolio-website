@@ -14,9 +14,7 @@ function App() {
                 <TechStack />
             </Reveal>
 
-            <Reveal>
-                <Projects />
-            </Reveal>
+            <Projects />
 
             <div className="h-20 w-full"></div>
         </>
