@@ -1,3 +1,4 @@
+import GithubContributions from "./components/GithubContributions";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Reveal from "./components/Reveal";
@@ -17,6 +18,8 @@ function App() {
             <Projects />
 
             <WorkExperience />
+
+            <GithubContributions />
 
             <div className="h-20 w-full"></div>
         </main>
