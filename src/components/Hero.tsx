@@ -40,7 +40,7 @@ export default function Hero() {
                         <div className="absolute top-1/2 left-1/2 aspect-square w-24 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-border/60 bg-background p-1">
                             <img
                                 src={profileImg}
-                                className="aspect-square w-full rounded-full"
+                                className="aspect-square w-full rounded-full dark:brightness-85"
                                 alt=""
                             />
                         </div>
@@ -78,19 +78,18 @@ export default function Hero() {
 
             <Container className="mt-4 flex items-center gap-2">
                 <LinkBtn
-                    name="Gmail"
-                    href="mailto:arpitjana2103@gmail.com"
-                    text="Email Me"
-                    className1="border-foreground/50 hover:border-foreground/0"
+                    icon="CV"
+                    href="#"
+                    text="Show Resume"
+                    className1="border-foreground/30 hover:border-foreground/0"
                     className2="bg-foreground/90 hover:bg-foreground text-background"
                 />
-
                 <LinkBtn
-                    name="CV"
-                    href="#"
-                    text="Download CV"
-                    className1="border-foreground/50 hover:border-foreground/0"
-                    className2="bg-background hover:bg-bakcground text-foreground border-foreground/50"
+                    icon="Gmail"
+                    href="mailto:arpitjana2103@gmail.com"
+                    text="Email Me"
+                    className1="border-foreground/30 hover:border-foreground/0"
+                    className2="bg-transparent hover:bg-transparent text-foreground border-foreground/40"
                 />
             </Container>
 
@@ -105,7 +104,7 @@ export default function Hero() {
                     >
                         <span className="inline-block h-2 w-2 rounded-full bg-green-500"></span>
                     </div>
-                    <span>Available for work, lets connect!</span>
+                    <span>Available for full-time job, lets connect!</span>
                 </div>
             </Container>
         </div>
