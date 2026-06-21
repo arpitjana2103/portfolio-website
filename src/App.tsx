@@ -17,6 +17,8 @@ function App() {
             <Reveal>
                 <Projects />
             </Reveal>
+
+            <div className="h-20 w-full"></div>
         </>
     );
 }

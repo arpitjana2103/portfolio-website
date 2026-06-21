@@ -3,7 +3,7 @@ import Container from "./Container";
 
 export default function TechStack() {
     return (
-        <section className="mt-10">
+        <section className="mt-12">
             <Container>
                 <h1 className="font-sans font-semibold text-foreground/50">TECH STACK</h1>
                 <div className="mt-4">

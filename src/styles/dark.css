@@ -2,9 +2,9 @@
     --background: var(--amber1000);
     --foreground: var(--amber100);
     --border: var(--amber400);
+    --card: var(--amber950);
 
     /*-----------------------------------*/
-    --card: oklch(0.205 0 0);
     --card-foreground: oklch(0.985 0 0);
     --popover: oklch(0.205 0 0);
     --popover-foreground: oklch(0.985 0 0);

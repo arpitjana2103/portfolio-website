@@ -14,7 +14,7 @@ export default function ThemeToggle() {
                 {!isDark && (
                     <HugeiconsIcon
                         icon={Moon02Icon}
-                        strokeWidth={2}
+                        strokeWidth={1.5}
                         className="size-[1.3rem] text-foreground/70"
                     />
                 )}

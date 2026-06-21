@@ -100,7 +100,7 @@ export default function Hero() {
                         icon="CV"
                         href="#"
                         text="See Resume"
-                        className1="border-foreground/20 hover:border-foreground/0"
+                        className1="border-foreground/30 hover:border-foreground/0"
                         className2="bg-foreground/90 hover:bg-foreground text-background"
                     />
                     <LinkBtn
