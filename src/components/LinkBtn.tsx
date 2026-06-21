@@ -33,7 +33,7 @@ export default function LinkBtn({ name, text, href, className1, className2 }: Pr
                     <span>
                         <HugeiconsIcon strokeWidth={2} icon={Icons[name]} />
                     </span>
-                    <span>{text}</span>
+                    <span className="tracking-wide">{text}</span>
                 </Button>
             </div>
         </a>

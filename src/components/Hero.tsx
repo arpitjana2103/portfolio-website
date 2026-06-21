@@ -54,8 +54,8 @@ export default function Hero() {
 
             <Container>
                 <div className="pointer-events-none">
-                    <h1 className="mt-8 font-sans text-2xl font-semibold text-foreground/80">
-                        Hey <span className="font-emoji">👋</span> , I am Arpit
+                    <h1 className="mt-8 font-sans text-2xl font-semibold tracking-wide text-foreground/80">
+                        Hey <span className="font-emoji">👋</span> , I am Arpit !
                     </h1>
                 </div>
             </Container>
@@ -63,14 +63,15 @@ export default function Hero() {
             <Container>
                 <div className="mt-4 font-mono text-foreground/70">
                     <p>
-                        A frontend Developer based in Kolkata, <span>🇮🇳</span> India.
-                        <br />
-                        Passionate about turning ideas into polished web applications with{" "}
+                        A frontend developer based in Kolkata, <span>🇮🇳</span> India. Love to build
+                        polished web applications with{" "}
                         <Badge
                             name="React"
                             className="translate-y-0.5 bg-cyan-500/10 dark:bg-cyan-500/20"
                         />{" "}
-                        and <Badge name="NextJS" className="translate-y-0.5 bg-stone-500/20" />.
+                        and <Badge name="NextJS" className="translate-y-0.5 bg-stone-500/20" />{" "}
+                        ecosystem, with 2+ years of industry experience and 1 year of experience
+                        teaching web development.
                     </p>
                 </div>
             </Container>
@@ -93,7 +94,7 @@ export default function Hero() {
                 />
             </Container>
 
-            <Container className="mt-4 font-mono text-foreground/50">
+            <Container className="mt-4 font-mono text-sm text-foreground/70">
                 <div className="flex items-center gap-2">
                     <div
                         className={cn(
