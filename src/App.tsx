@@ -1,11 +1,16 @@
-import Header from "./components/Hero";
+import Hero from "./components/Hero";
 import Reveal from "./components/Reveal";
+import TechStack from "./components/TechStack";
 
 function App() {
     return (
         <>
             <Reveal>
-                <Header />
+                <Hero />
+            </Reveal>
+
+            <Reveal>
+                <TechStack />
             </Reveal>
         </>
     );

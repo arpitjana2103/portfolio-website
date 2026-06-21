@@ -1,4 +1,4 @@
-import { DotGridSpotlight } from "@/components/dot-grid-spotlight";
+import { DotGridSpotlight } from "@/components/ui/dot-grid-spotlight";
 import { useTheme } from "@/contexts/theme.context";
 import { cn } from "@/lib/utils";
 
@@ -26,7 +26,7 @@ export default function Hero() {
     const { theme } = useTheme();
     const isDark = theme === "dark";
     return (
-        <div>
+        <section>
             <div className="relative h-40 w-full">
                 <DotGridSpotlight
                     dotColor={DOT_COLOR[theme]?.default}
@@ -65,11 +65,8 @@ export default function Hero() {
                     <p>
                         A frontend developer based in Kolkata, <span>🇮🇳</span> India. Love to build
                         polished web applications with{" "}
-                        <Badge
-                            name="React"
-                            className="translate-y-0.5 bg-cyan-500/10 dark:bg-cyan-500/20"
-                        />{" "}
-                        and <Badge name="NextJS" className="translate-y-0.5 bg-stone-500/20" />{" "}
+                        <Badge name="React" className="translate-y-0.5 bg-cyan-500/15 py-0" /> and{" "}
+                        <Badge name="NextJS" className="translate-y-0.5 bg-stone-500/15 py-0" />{" "}
                         ecosystem, with 2+ years of industry experience and 1 year of experience
                         teaching web development.
                     </p>
@@ -107,6 +104,6 @@ export default function Hero() {
                     <span>Available for full-time job, lets connect!</span>
                 </div>
             </Container>
-        </div>
+        </section>
     );
 }
