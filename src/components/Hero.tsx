@@ -1,11 +1,13 @@
 import { GithubIcon, Linkedin02FreeIcons } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
+import { useEffect, useState } from "react";
 
 import { DotGridSpotlight } from "@/components/ui/dot-grid-spotlight";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { useTheme } from "@/contexts/theme.context";
 import { cn } from "@/lib/utils";
 
+import profileLowQ from "./../assets/profile.lowQ.webp";
 import profileImg from "./../assets/profile.webp";
 import Badge from "./Badge";
 import Container from "./Container";
@@ -29,6 +31,10 @@ const DOT_COLOR = {
 export default function Hero() {
     const { theme } = useTheme();
     const isDark = theme === "dark";
+    const [isLoaded, setIsLoaded] = useState(false);
+    useEffect(() => {
+        setIsLoaded(false);
+    }, []);
     return (
         <section>
             <TooltipProvider>
@@ -65,11 +71,27 @@ export default function Hero() {
 
                             <div className="absolute inset-0 rounded-full bg-background/90 blur-sm" />
                             <div className="absolute top-1/2 left-1/2 aspect-square w-24 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-border/60 bg-background p-1">
-                                <img
-                                    src={profileImg}
-                                    className="aspect-square w-full rounded-full dark:brightness-85"
-                                    alt="arpit"
-                                />
+                                <div className="relative h-full w-full overflow-hidden rounded-full">
+                                    <div
+                                        className={cn(
+                                            "absolute h-full w-full inset-0 bg-cover",
+                                            isLoaded ? "opacity-0" : "blur-sm",
+                                        )}
+                                        style={{
+                                            backgroundImage: `url(${profileLowQ})`,
+                                        }}
+                                    />
+                                    <img
+                                        src={profileImg}
+                                        className={cn(
+                                            "absolute inset-0 h-full w-full rounded-full object-cover transition-opacity duration-500",
+                                            isLoaded ? "opacity-100" : "opacity-0",
+                                        )}
+                                        alt="arpit"
+                                        onLoad={() => setIsLoaded(true)}
+                                        loading="lazy"
+                                    />
+                                </div>
                             </div>
                         </div>
 
