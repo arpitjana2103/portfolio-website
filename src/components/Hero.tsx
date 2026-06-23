@@ -1,4 +1,4 @@
-import { GithubIcon, Linkedin01Icon, Linkedin02FreeIcons } from "@hugeicons/core-free-icons";
+import { GithubIcon, Linkedin02FreeIcons } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
 
 import { DotGridSpotlight } from "@/components/ui/dot-grid-spotlight";
@@ -124,8 +124,8 @@ export default function Hero() {
                         icon="Gmail"
                         href="mailto:arpitjana2103@gmail.com"
                         text="Email Me"
-                        className1="border-foreground/20 hover:border-foreground/0"
-                        className2="bg-transparent hover:bg-transparent text-foreground border-foreground/40"
+                        className1="border-foreground/30 hover:border-foreground/0"
+                        className2="bg-transparent hover:bg-transparent border-2 text-foreground border-foreground/70"
                     />
                 </Container>
             </TooltipProvider>

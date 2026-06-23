@@ -1,11 +1,16 @@
-import { Doc01Icon, Mail02Icon } from "@hugeicons/core-free-icons";
+import {
+    Doc01Icon,
+    Linkedin02FreeIcons,
+    Mail02Icon,
+    TwitterIcon,
+} from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
 
 import { cn } from "@/lib/utils";
 
 import { Button } from "./ui/button";
 
-type TIcons = "Gmail" | "CV";
+type TIcons = "Gmail" | "CV" | "LinkedIn" | "Twitter";
 
 type Props = {
     icon: TIcons;
@@ -18,6 +23,8 @@ type Props = {
 const Icons = {
     Gmail: Mail02Icon,
     CV: Doc01Icon,
+    LinkedIn: Linkedin02FreeIcons,
+    Twitter: TwitterIcon,
 } as const satisfies Record<TIcons, typeof Mail02Icon>;
 
 export default function LinkBtn({ icon, text, href, className1, className2 }: Props) {
@@ -31,7 +38,11 @@ export default function LinkBtn({ icon, text, href, className1, className2 }: Pr
                     )}
                 >
                     <span>
-                        <HugeiconsIcon strokeWidth={2} icon={Icons[icon]} />
+                        <HugeiconsIcon
+                            strokeWidth={1.5}
+                            icon={Icons[icon]}
+                            className="opacity-100"
+                        />
                     </span>
                     <span className="tracking-wide">{text}</span>
                 </Button>
