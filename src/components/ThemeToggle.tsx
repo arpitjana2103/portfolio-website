@@ -9,7 +9,7 @@ export default function ThemeToggle() {
     const { theme, handleThemeToggle } = useTheme();
     const isDark = theme === "dark";
     return (
-        <Button className="z-1000 inline-block cursor-pointer bg-transparent hover:bg-transparent">
+        <Button className="z-1000 m-0 inline-block cursor-pointer bg-transparent p-0 hover:bg-transparent">
             <span onClick={handleThemeToggle}>
                 {!isDark && (
                     <HugeiconsIcon

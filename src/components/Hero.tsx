@@ -1,4 +1,4 @@
-import { GithubIcon } from "@hugeicons/core-free-icons";
+import { GithubIcon, Linkedin01Icon, Linkedin02FreeIcons } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
 
 import { DotGridSpotlight } from "@/components/ui/dot-grid-spotlight";
@@ -73,7 +73,10 @@ export default function Hero() {
                             </div>
                         </div>
 
-                        <div className="pointer-events-auto flex items-center gap-2">
+                        <div className="pointer-events-auto flex items-center gap-4">
+                            <a href="https://www.linkedin.com/in/arpitjana2103/" target="_blank">
+                                <HugeiconsIcon size={21} icon={Linkedin02FreeIcons} />
+                            </a>
                             <a href="https://github.com/arpitjana2103" target="_blank">
                                 <HugeiconsIcon icon={GithubIcon} size={20} />
                             </a>
