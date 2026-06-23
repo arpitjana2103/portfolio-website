@@ -3,6 +3,8 @@ import {
     GitHubContributionChart,
     type ContributionCalendar,
 } from "@achrekarom/github-contribution-chart";
+import { ArrowUpRight03Icon } from "@hugeicons/core-free-icons";
+import { HugeiconsIcon } from "@hugeicons/react";
 import { useEffect, useState } from "react";
 
 import { useTheme } from "@/contexts/theme.context";
@@ -81,8 +83,12 @@ export default function GithubContributions() {
                                         rel="noopener noreferrer"
                                         className="text-sm font-medium text-foreground/70 transition-colors hover:text-foreground/90"
                                     >
-                                        @{GITHUB_USERNAME}
+                                        <span className="flex items-center gap-1">
+                                            @{GITHUB_USERNAME}
+                                            <HugeiconsIcon icon={ArrowUpRight03Icon} size={20} />
+                                        </span>
                                     </a>
+
                                     {!loading && !error && calendar && (
                                         <span className="rounded-full bg-foreground/8 px-2 py-0.5 text-xs text-foreground/50">
                                             {calendar.totalContributions.toLocaleString()}{" "}

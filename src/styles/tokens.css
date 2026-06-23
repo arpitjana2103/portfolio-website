@@ -41,4 +41,16 @@
     --radius-2xl: calc(var(--radius) * 1.8);
     --radius-3xl: calc(var(--radius) * 2.2);
     --radius-4xl: calc(var(--radius) * 2.6);
+
+    --animate-fade-out-loop: fade-out-loop 700ms linear infinite alternate;
+
+    @keyframes fade-out-loop {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
 }

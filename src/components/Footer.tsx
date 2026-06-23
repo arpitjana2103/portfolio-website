@@ -1,9 +1,14 @@
 import { Linkedin01Icon, TwitterIcon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
 
+import ThemeToggle from "./ThemeToggle";
+
 export default function Footer() {
     return (
         <div className="mt-18 p-10">
+            <div className="mb-4 flex items-center justify-center gap-3">
+                <ThemeToggle />
+            </div>
             <p className="text-center font-cursive text-4xl text-foreground/70">Arpit Jana</p>
             <div className="mt-6 flex items-center justify-center gap-3">
                 <a href="https://www.linkedin.com/in/arpitjana2103/" target="_blank">

@@ -82,7 +82,7 @@ const Icons = {
 
 export default function Badge({ name, className }: Props) {
     return (
-        <span className={cn("inline-block shadow-xs rounded-md px-2 py-0.5", className)}>
+        <span className={cn("inline-block shadow-xs rounded-full px-3 py-0.5", className)}>
             <span className="flex items-center gap-1.5">
                 <span className="">
                     <img

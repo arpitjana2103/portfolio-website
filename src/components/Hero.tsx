@@ -1,3 +1,6 @@
+import { GithubIcon } from "@hugeicons/core-free-icons";
+import { HugeiconsIcon } from "@hugeicons/react";
+
 import { DotGridSpotlight } from "@/components/ui/dot-grid-spotlight";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { useTheme } from "@/contexts/theme.context";
@@ -38,7 +41,7 @@ export default function Hero() {
 
                     <div className="pointer-events-none absolute -bottom-10 left-1/2 z-1000 flex w-260 max-w-full -translate-x-1/2 items-end justify-between rounded-full p-2 px-6 sm:px-10">
                         <div className="relative aspect-square w-30">
-                            <div className="absolute right-0 bottom-4 z-1001">
+                            <div className="absolute right-0 bottom-4 z-1001 animate-fade-out-loop hover:animate-none hover:opacity-100">
                                 <Tooltip>
                                     <TooltipTrigger>
                                         <div
@@ -70,7 +73,12 @@ export default function Hero() {
                             </div>
                         </div>
 
-                        <ThemeToggle />
+                        <div className="pointer-events-auto flex items-center gap-2">
+                            <a href="https://github.com/arpitjana2103" target="_blank">
+                                <HugeiconsIcon icon={GithubIcon} size={20} />
+                            </a>
+                            <ThemeToggle />
+                        </div>
                     </div>
 
                     <div className="pointer-events-none absolute bottom-0 h-20 w-full bg-[linear-gradient(0deg,var(--background)_0%,transparent_50%)]" />
@@ -89,12 +97,12 @@ export default function Hero() {
                             build polished web applications with{" "}
                             <Badge
                                 name="React"
-                                className="translate-y-0.5 bg-cyan-500/15 px-1.5 py-0"
+                                className="translate-y-0.5 bg-cyan-500/15 px-2.5 py-0"
                             />{" "}
                             and{" "}
                             <Badge
                                 name="NextJS"
-                                className="translate-y-0.5 bg-stone-500/15 px-1.5 py-0"
+                                className="translate-y-0.5 bg-stone-500/15 px-2.5 py-0"
                             />{" "}
                             ecosystem, with 2+ years of industry experience and 1 year of experience
                             teaching web development.

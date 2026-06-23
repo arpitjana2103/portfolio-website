@@ -27,7 +27,7 @@ export default function WorkExperience() {
 
 function WorkCard1() {
     return (
-        <div className="flex flex-col items-start gap-3 border-l-2 border-foreground/50 pl-2.5 sm:flex-row">
+        <div className="flex flex-col items-start gap-3 pl-2.5 sm:flex-row">
             <div className="h-8 w-8 shrink-0 rounded-full border-2 border-foreground/50">
                 <img className="rounded-full" src={ddugkyLogo} alt="" />
             </div>
@@ -49,14 +49,14 @@ function WorkCard1() {
                     <span>Bhopal • India • On-Site</span>
                 </div>
                 <div className="mt-6">
-                    <p className="hidden text-foreground/60 sm:block">
+                    {/*<p className="hidden text-foreground/50">
                         Delivered structured full-stack web development training as a Lead Web Dev
                         Instructor, mentoring 200+ students across BIA-05, BIA-06, BIA-07, BIA-08,
                         and BIA-09 batches. Conducted ~1750+ total training hours, covering modern
                         web technologies and industry practices.
                     </p>
 
-                    <ul className="mt-4 hidden text-foreground/60 sm:block">
+                    <ul className="mt-4 hidden text-foreground/50">
                         <li>
                             • Conducted live coding sessions, assessments, and doubt-clearing
                             sessions
@@ -65,23 +65,20 @@ function WorkCard1() {
                             • Designed course materials and hands-on projects for practical learning
                         </li>
                         <li>• Provided career guidance and placement support to students</li>
-                    </ul>
+                    </ul>*/}
 
                     <div className="mt-6 flex flex-wrap items-center gap-2 text-foreground/60">
-                        <Badge
-                            name="JavaScript"
-                            className="bg-yellow-400/10 px-1.5 py-0.5 text-sm"
-                        />{" "}
-                        <Badge name="TypeScript" className="bg-blue-500/10 px-1.5 py-0.5 text-sm" />
-                        <Badge name="React" className="bg-sky-500/10 px-1.5 py-0.5 text-sm" />
-                        <Badge name="Shadcn" className="bg-stone-500/10 px-1.5 py-0.5 text-sm" />
+                        <Badge name="JavaScript" className="bg-yellow-400/10" />{" "}
+                        <Badge name="TypeScript" className="bg-blue-500/10" />
+                        <Badge name="React" className="bg-sky-500/10" />
+                        <Badge name="Shadcn" className="bg-stone-500/10" />
                         <Badge
                             name="Tailwindcss"
                             className="bg-cyan-500/10 px-1.5 py-0.5 text-sm"
                         />
-                        <Badge name="NodeJS" className="bg-green-500/10 px-1.5 py-0.5 text-sm" />
-                        <Badge name="ExpressJS" className="bg-stone-500/10 px-1.5 py-0.5 text-sm" />
-                        <Badge name="MongoDB" className="bg-green-500/10 px-1.5 py-0.5 text-sm" />
+                        <Badge name="NodeJS" className="bg-green-500/10" />
+                        <Badge name="ExpressJS" className="bg-stone-500/10" />
+                        <Badge name="MongoDB" className="bg-green-500/10" />
                     </div>
                 </div>
             </div>
@@ -91,7 +88,7 @@ function WorkCard1() {
 
 function WorkCard2() {
     return (
-        <div className="flex flex-col items-start gap-3 border-l-2 border-foreground/50 pl-2.5 sm:flex-row">
+        <div className="flex flex-col items-start gap-3 pl-2.5 sm:flex-row">
             <div className="h-8 w-8 shrink-0 rounded-full border-2 border-foreground/50">
                 <img className="rounded-full" src={trackxLogo} alt="" />
             </div>
@@ -99,7 +96,7 @@ function WorkCard2() {
                 <span className="text-lg font-semibold text-foreground/70">Software Engineer</span>
 
                 <div className="text-sm text-foreground/70">
-                    <span>Tracxn </span>
+                    <span>Tracxn Technologies</span>
                 </div>
                 <div className="mt-1.5 text-sm text-foreground/50">
                     <span>Full-Time • Jan 2024 - Aug 2025 • 8 mos</span>
@@ -108,7 +105,7 @@ function WorkCard2() {
                     <span>Bengaluru • India • On-Site</span>
                 </div>
                 <div className="mt-6">
-                    <ul className="hidden text-foreground/60 sm:block">
+                    {/*<ul className="hidden text-foreground/50">
                         <li>
                             • Built and maintained reusable React components, improving UI
                             consistency
@@ -129,15 +126,12 @@ function WorkCard2() {
                             • Improved code quality through refactoring and adherence to best
                             practices
                         </li>
-                    </ul>
+                    </ul>*/}
 
                     <div className="mt-6 flex flex-wrap items-center gap-2 text-foreground/60">
-                        <Badge name="TypeScript" className="bg-blue-500/10 px-1.5 py-0.5 text-sm" />
-                        <Badge name="React" className="bg-sky-500/10 px-1.5 py-0.5 text-sm" />
-                        <Badge
-                            name="Tailwindcss"
-                            className="bg-cyan-500/10 px-1.5 py-0.5 text-sm"
-                        />
+                        <Badge name="TypeScript" className="bg-blue-500/10" />
+                        <Badge name="React" className="bg-sky-500/10" />
+                        <Badge name="Tailwindcss" className="bg-cyan-500/10" />
                     </div>
                 </div>
             </div>

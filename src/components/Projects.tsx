@@ -49,7 +49,7 @@ export default function Projects() {
                     </div>
                 </Reveal>
 
-                <div className="mt-4 flex flex-col gap-2">
+                <div className="mt-4 hidden flex-col gap-2">
                     <Reveal>
                         <img
                             src="https://i.imghippo.com/files/GKoF3905HAU.webp"
