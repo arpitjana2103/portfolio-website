@@ -1,7 +1,7 @@
 import { ArrowUpRight03Icon, GithubIcon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
 
-import mistCastLogo from "./../assets/mistcast.png";
+import mistCastLogo from "./../assets/mistcast.webp";
 import Container from "./Container";
 import Reveal from "./Reveal";
 

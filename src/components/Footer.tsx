@@ -18,7 +18,7 @@ export default function Footer() {
                         fill="currentColor"
                         strokeWidth={1.5}
                         icon={HeartIcon}
-                        className="opacity-100"
+                        className="text-rose-400 opacity-100"
                     />{" "}
                 </span>
                 <span>by</span>

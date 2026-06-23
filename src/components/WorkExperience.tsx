@@ -1,5 +1,5 @@
-import ddugkyLogo from "./../assets/ddugkyLogo.png";
-import trackxLogo from "./../assets/tracxn_logo.jpg";
+import ddugkyLogo from "./../assets/ddugkyLogo.webp";
+import trackxLogo from "./../assets/tracxn_logo.webp";
 import Badge from "./Badge";
 import Container from "./Container";
 import Reveal from "./Reveal";

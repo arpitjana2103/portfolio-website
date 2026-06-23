@@ -1,28 +1,28 @@
 import { cn } from "@/lib/utils";
 
-import antiGravityLogo from "./../assets/antiGravity.png";
-import reactLogo from "./../assets/atom.png";
-import awsLogo from "./../assets/aws.png";
-import chatGPT from "./../assets/chatgpt.png";
-import claude from "./../assets/claude.png";
-import dockerLogo from "./../assets/docker.png";
-import expressLogo from "./../assets/express.png";
-import git from "./../assets/git.png";
-import gitHubLogo from "./../assets/github.png";
-import githubActions from "./../assets/githubActions.png";
-import jsLogo from "./../assets/javascript.png";
-import mongoLogo from "./../assets/mongo.png";
-import nextLogo from "./../assets/next.png";
-import nextAuth from "./../assets/nextAuth.png";
-import nodeLogo from "./../assets/nodejs.png";
-import notionLogo from "./../assets/notion.png";
-import postgreLogo from "./../assets/postgre.png";
-import prizmaLogo from "./../assets/prizma.png";
-import shadcnLogo from "./../assets/shadcn.png";
-import tailwindLogo from "./../assets/tailwind.png";
-import tsLogo from "./../assets/typescript.png";
-import vsCodeLogo from "./../assets/vsCode.png";
-import zedLogo from "./../assets/zed.png";
+import antiGravityLogo from "./../assets/antiGravity.webp";
+import reactLogo from "./../assets/atom.webp";
+import awsLogo from "./../assets/aws.webp";
+import chatGPT from "./../assets/chatgpt.webp";
+import claude from "./../assets/claude.webp";
+import dockerLogo from "./../assets/docker.webp";
+import expressLogo from "./../assets/express.webp";
+import git from "./../assets/git.webp";
+import gitHubLogo from "./../assets/github.webp";
+import githubActions from "./../assets/githubActions.webp";
+import jsLogo from "./../assets/javascript.webp";
+import mongoLogo from "./../assets/mongo.webp";
+import nextLogo from "./../assets/next.webp";
+import nextAuth from "./../assets/nextAuth.webp";
+import nodeLogo from "./../assets/nodejs.webp";
+import notionLogo from "./../assets/notion.webp";
+import postgreLogo from "./../assets/postgre.webp";
+import prizmaLogo from "./../assets/prizma.webp";
+import shadcnLogo from "./../assets/shadcn.webp";
+import tailwindLogo from "./../assets/tailwind.webp";
+import tsLogo from "./../assets/typescript.webp";
+import vsCodeLogo from "./../assets/vsCode.webp";
+import zedLogo from "./../assets/zed.webp";
 
 type TIcons =
     | "React"
