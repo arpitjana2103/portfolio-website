@@ -99,7 +99,7 @@ function WorkCard2() {
                     <span>Tracxn Technologies</span>
                 </div>
                 <div className="mt-1.5 text-sm text-foreground/50">
-                    <span>Full-Time • Jan 2024 - Aug 2025 • 8 mos</span>
+                    <span>Full-Time • Jan 2024 - Aug 2024 • 8 mos</span>
                 </div>
                 <div className="text-sm text-foreground/50">
                     <span>Bengaluru • India • On-Site</span>
