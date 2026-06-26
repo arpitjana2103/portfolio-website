@@ -35,6 +35,7 @@ export default function Hero() {
     useEffect(() => {
         setIsLoaded(false);
     }, []);
+    const subject = encodeURIComponent("Hi Arpit 👋");
     return (
         <section>
             <TooltipProvider>
@@ -137,15 +138,22 @@ export default function Hero() {
                 <Container className="mt-4 flex items-center gap-2">
                     <LinkBtn
                         icon="CV"
-                        href="#"
+                        href="https://drive.google.com/file/d/10Xg5keilQ9pRNSEYfs2bnI9PkEVvye8S/view"
                         text="See Resume"
                         className1="border-foreground/30 hover:border-foreground/0"
                         className2="bg-foreground/90 hover:bg-foreground text-background"
                     />
                     <LinkBtn
                         icon="Gmail"
-                        href="mailto:arpitjana2103@gmail.com"
+                        href={`mailto:arpitjana2103@gmail.com?subject=${subject}`}
                         text="Email Me"
+                        className1="border-foreground/30 hover:border-foreground/0"
+                        className2="bg-transparent hover:bg-transparent border-2 text-foreground border-foreground/70"
+                    />
+                    <LinkBtn
+                        icon="WhatsApp"
+                        href="https://wa.me/7047809373"
+                        text="WhatsApp Me"
                         className1="border-foreground/30 hover:border-foreground/0"
                         className2="bg-transparent hover:bg-transparent border-2 text-foreground border-foreground/70"
                     />

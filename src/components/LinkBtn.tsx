@@ -3,6 +3,7 @@ import {
     Linkedin02FreeIcons,
     Mail02Icon,
     TwitterIcon,
+    WhatsappIcon,
 } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
 
@@ -10,7 +11,7 @@ import { cn } from "@/lib/utils";
 
 import { Button } from "./ui/button";
 
-type TIcons = "Gmail" | "CV" | "LinkedIn" | "Twitter";
+type TIcons = "Gmail" | "CV" | "LinkedIn" | "Twitter" | "WhatsApp";
 
 type Props = {
     icon: TIcons;
@@ -25,6 +26,7 @@ const Icons = {
     CV: Doc01Icon,
     LinkedIn: Linkedin02FreeIcons,
     Twitter: TwitterIcon,
+    WhatsApp: WhatsappIcon,
 } as const satisfies Record<TIcons, typeof Mail02Icon>;
 
 export default function LinkBtn({ icon, text, href, className1, className2 }: Props) {

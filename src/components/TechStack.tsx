@@ -25,11 +25,23 @@ export default function TechStack() {
                         <Badge name="AWS" className="bg-orange-500/10" />
                         <Badge name="Git" className="bg-orange-500/10" />
                         <Badge name="GitHub" className="bg-stone-500/10" />
-                        <Badge name="ChatGPT" className="bg-teal-500/10" />
-                        <Badge name="Claude" className="bg-orange-500/10" />
-                        <Badge name="AntiGravity" className="bg-sky-500/10" />
-                        <Badge name="Zed" className="bg-blue-500/10" />
-                        <Badge name="Notion" className="bg-stone-500/10" />
+                        <Badge
+                            name="ChatGPT"
+                            className="bg-teal-500/10 opacity-80 grayscale hover:opacity-100 hover:grayscale-0"
+                        />
+                        <Badge
+                            name="Claude"
+                            className="bg-orange-500/10 opacity-80 grayscale hover:opacity-100 hover:grayscale-0"
+                        />
+                        <Badge
+                            name="AntiGravity"
+                            className="bg-sky-500/10 opacity-80 grayscale hover:opacity-100 hover:grayscale-0"
+                        />
+                        <Badge
+                            name="Zed"
+                            className="bg-blue-500/10 opacity-80 grayscale hover:opacity-100 hover:grayscale-0"
+                        />
+                        {/*<Badge name="Notion" className="bg-stone-500/10 opacity-80 grayscale" />*/}
                         {/*<Badge name="GitHubActions" className="bg-cyan-500/10" />*/}
                     </div>
 
