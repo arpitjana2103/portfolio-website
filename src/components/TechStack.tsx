@@ -16,13 +16,13 @@ export default function TechStack() {
                         <Badge name="Shadcn" className="bg-stone-500/10" />
                         <Badge name="NextJS" className="bg-stone-500/10" />
                         <Badge name="NextAuth" className="bg-violet-500/10" />
-                        <Badge name="Prizma" className="bg-teal-500/10" />
-                        <Badge name="PostgreSQL" className="bg-blue-500/10" />
                         <Badge name="NodeJS" className="bg-green-500/10" />
                         <Badge name="ExpressJS" className="bg-stone-500/10" />
-                        <Badge name="MongoDB" className="bg-green-500/10" />
-                        <Badge name="Docker" className="bg-sky-500/10" />
-                        <Badge name="AWS" className="bg-orange-500/10" />
+                        <Badge name="Prizma" className="bg-teal-500/10" />
+                        <Badge name="PostgreSQL" className="bg-blue-500/10" />
+                        {/*<Badge name="MongoDB" className="bg-green-500/10" />*/}
+                        {/*<Badge name="Docker" className="bg-sky-500/10" />*/}
+                        {/*<Badge name="AWS" className="bg-orange-500/10" />*/}
                         <Badge name="Git" className="bg-orange-500/10" />
                         <Badge name="GitHub" className="bg-stone-500/10" />
                         <Badge
