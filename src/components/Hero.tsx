@@ -28,6 +28,8 @@ const DOT_COLOR = {
     },
 } as const;
 
+const resumeLink = "https://drive.google.com/file/d/1eV5sciqEXIXuBjqksIPlopv2O0ckEcNU/view";
+
 export default function Hero() {
     const { theme } = useTheme();
     const isDark = theme === "dark";
@@ -138,7 +140,7 @@ export default function Hero() {
                 <Container className="mt-4 flex items-center gap-2">
                     <LinkBtn
                         icon="CV"
-                        href="https://drive.google.com/file/d/10Xg5keilQ9pRNSEYfs2bnI9PkEVvye8S/view"
+                        href={resumeLink}
                         text="See Resume"
                         className1="border-foreground/30 hover:border-foreground/0"
                         className2="bg-foreground/90 hover:bg-foreground text-background"
