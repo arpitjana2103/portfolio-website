@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Reveal from "./components/Reveal";
 import TechStack from "./components/TechStack";
 import WorkExperience from "./components/WorkExperience";
+import Writtings from "./components/Writtings";
 
 function App() {
     return (
@@ -19,6 +20,8 @@ function App() {
                 </Reveal>
 
                 <Projects />
+
+                <Writtings />
 
                 <WorkExperience />
 
