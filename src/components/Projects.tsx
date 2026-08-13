@@ -73,7 +73,7 @@ const PROJECTS_DATA: ProjectProps[] = [
         liveUrl: "https://mistcast-weather.netlify.app/forecast",
     },
     {
-        title: "MistCast",
+        title: "CVLens",
         logo: cvLensLogo,
         logoAlt: "mistCast",
         logoSize: "h-5 w-5",
